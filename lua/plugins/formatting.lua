@@ -11,7 +11,6 @@ return {
         css = { "prettier" },
         html = { "prettier" },
         markdown = { "prettier" },
-        toml = { "taplo" },
       },
     },
   },
