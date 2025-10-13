@@ -9,6 +9,7 @@ return {
       "prettier",
       "eslint_d",
       "taplo",
+      "css-lsp",
     },
   },
 }
