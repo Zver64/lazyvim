@@ -20,6 +20,7 @@ return {
         "go",
         "rust",
         "lua",
+        "toml",
       },
       inline_suggest = true,
     },
