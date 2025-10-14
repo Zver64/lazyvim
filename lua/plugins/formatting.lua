@@ -11,8 +11,8 @@ return {
         css = { "prettier" },
         html = { "prettier" },
         markdown = { "prettier" },
+        groovy = { "npm-groovy-lint" },
       },
     },
   },
 }
-
