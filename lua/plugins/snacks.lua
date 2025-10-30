@@ -5,6 +5,26 @@ return {
   opts = {
     picker = {
       sources = {
+        -- lsp_symbols = {
+        --   filter = {
+        --     typescript = {
+        --       "Class",
+        --       "Constructor",
+        --       "Enum",
+        --       "Field",
+        --       "Function",
+        --       "Interface",
+        --       "Method",
+        --       "Module",
+        --       "Namespace",
+        --       "Package",
+        --       "Property",
+        --       "Struct",
+        --       "Trait",
+        --       "Variable",
+        --     },
+        --   },
+        -- },
         files = {
           hidden = true,
         },
