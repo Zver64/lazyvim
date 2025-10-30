@@ -38,3 +38,9 @@ vim.keymap.set("i", "<c-q>", function()
   vim.lsp.completion.get()
   -- vim.cmd[[redraw | echo '']]
 end)
+
+vim.keymap.set("n", "<leader>abc", function()
+  local branch = vim.fn.system("git branch --show-current"):gsub("\n", "")
+  vim.fn.setreg("+", branch)
+  print("Copied branch: " .. branch)
+end, { desc = "Copy current git branch" })

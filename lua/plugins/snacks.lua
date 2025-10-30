@@ -8,6 +8,12 @@ return {
         files = {
           hidden = true,
         },
+        grep = {
+          hidden = true,
+        },
+        grep_word = {
+          hidden = true,
+        },
       },
     },
   },
