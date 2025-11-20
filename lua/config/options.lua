@@ -3,3 +3,6 @@
 -- Add any additional options here
 vim.opt.langmap =
   "ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz"
+
+vim.g.autoformat = false
+vim.opt.spell = false
