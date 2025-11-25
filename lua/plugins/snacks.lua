@@ -28,6 +28,9 @@ return {
         files = {
           hidden = true,
         },
+        explorer = {
+          hidden = true,
+        },
         grep = {
           hidden = true,
         },

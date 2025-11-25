@@ -1,7 +1,3 @@
-vim.keymap.set("i", "<C-Bslash>", function()
-  require("blink.cmp").show()
-end, { desc = "Trigger completion" })
-
 -- Copy relative file path with line number
 vim.keymap.set("n", "<leader>apl", function()
   local path = vim.fn.fnamemodify(vim.fn.expand("%"), ":.")
@@ -25,6 +21,12 @@ vim.keymap.set("n", "<leader>afd", function()
   vim.cmd("bdelete")
   vim.notify("file deleted: " .. current_file)
 end, { desc = "Delete current file" })
+
+vim.keymap.set("n", "<leader>afn", function()
+  local name = vim.fn.expand('%:t');
+  vim.fn.setreg("+", name)
+  vim.notify("file name copied: " .. name)
+end, {desc = "copy file name"})
 
 -- CTRL-q (insert-mode) manually triggers Amazon Q completion (inline suggestions).
 vim.keymap.set("i", "<c-q>", function()
